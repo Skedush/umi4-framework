@@ -28,8 +28,8 @@ export default defineConfig({
       name: ' CRUD 示例',
       path: '/table',
       component: './Table',
+      menuRender: false,
     },
   ],
   npmClient: 'yarn',
 });
-
